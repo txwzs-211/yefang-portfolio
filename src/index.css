@@ -1240,7 +1240,7 @@ body.modal-open .global-liquid-ether {
   font-weight: 400;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: rgba(168,85,247,0.5);
   margin-bottom: 16px;
 }
 .projects-title {
@@ -1403,7 +1403,7 @@ body.modal-open .global-liquid-ether {
 .proj-modal-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 100px 56px 100px;
+  padding: 100px 0 100px;
 }
 .proj-modal-back {
   position: sticky;
@@ -1742,7 +1742,7 @@ body.modal-open .global-liquid-ether {
   font-weight: 400;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: rgba(168,85,247,0.5);
   margin-bottom: 16px;
 }
 .workflow-title {
@@ -2686,7 +2686,7 @@ body.modal-open .global-liquid-ether {
   font-weight: 400;
   letter-spacing: 4px;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: rgba(168,85,247,0.5);
   margin-bottom: 28px;
 }
 .contact-title {
@@ -2779,11 +2779,7 @@ body.modal-open .global-liquid-ether {
   overflow-y: auto;
 }
 .modal.active { display: block; }
-.modal-content {
-  max-width: min(1000px, calc(100vw - 80px));
-  margin: 0 auto;
-  padding: 70px 40px 80px;
-}
+.modal-content { max-width: min(800px, calc(100vw - 80px)); margin: 0 auto; padding: 70px 0 80px; }
 .modal-back {
   position: sticky; top: 20px;
   padding: 10px 20px;
@@ -2796,10 +2792,7 @@ body.modal-open .global-liquid-ether {
   transition: all 0.2s;
 }
 .modal-back:hover { background: rgba(255,255,255,0.1); }
-.modal-hero {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto 28px;
+.modal-hero { width: 100%; margin: 0 0 28px;
   border-radius: 16px;
   overflow: hidden;
   background: var(--bg-soft);
@@ -3033,5 +3026,12 @@ body.modal-open .global-liquid-ether {
 /* 流程步骤 */
 .fw-flow-step-title,
 .fv-flow-title { font-size: 15px; }
+
+
+
+
+
+
+
 
 
