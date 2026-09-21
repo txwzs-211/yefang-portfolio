@@ -108,10 +108,10 @@ export const works = [
     detail: { type: 'AI 酷炫杂志短片', role: '造型设计 / 节奏剪辑', sections: [{ h: '项目概述', p: '杂志风AI短片，融合时尚视觉与霓虹美学。负责角色造型设计、色彩风格统一与节奏剪辑，打造具有潮流感的视觉片段。' }] },
   },
   {
-    id: 'lhcl',
-    title: '《烈火淬炼》',
-    tag: 'AI 与实拍结合',
-    video: 'assets/lhcl.mp4',
-    detail: { type: 'AI 与实拍结合', role: 'AI风格化处理', sections: [{ h: '项目概述', p: 'AI与实拍结合项目，负责实拍素材的AI风格化处理与画面扩展。探索真实镜头与AI生成画面的无缝融合，保留实拍质感的同时扩展视觉表现力。' }] },
+    id: 'ezkkdy',
+    title: '《鳄总咔咔钓鱼》',
+    tag: 'AI 动画短片',
+    video: 'assets/ezkkdy.mp4',
+    detail: { type: 'AI 动画短片', role: '角色造型设计 / 提示词工程', sections: [{ h: '项目概述', p: '拟人动物题材AI动画测试片段，围绕“鳄总钓鱼”的搞笑桥段展开。负责角色造型设计、多镜头分镜与一致性把控，测试夸张表情、拟人化动作在AI生成中的稳定性与喜剧节奏。' }] },
   },
 ];
